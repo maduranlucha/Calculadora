@@ -1,0 +1,124 @@
+body{
+  box-sizing: border-box;
+  /* background-color: hsl(200,80%,40%); */
+  background-image: url("../imagenes/fondo4.png");
+  background-repeat: repeat;
+  display: flex;
+  height: 100vh;
+}
+.calculadora{
+  margin: auto;
+  background-color: hsl(20,90%,50%);
+  /* background-image: url("../imagenes/fondo3.jpg"); */
+  background-size: 100%;
+  border: 2px solid black;
+  width: 250px;
+  height: 400px;
+  box-sizing: border-box ;
+}
+
+.cabeza{
+  height: 30%;
+}
+
+.logo{
+  height: 40%;
+  display: flex;
+}
+
+.pantalla{
+  margin-top: 25px;
+  height: 30px;
+  width: 80%;
+  text-align: right;
+  margin: auto;
+  background-color: hsl(40,70%,50%);
+  border:none;
+  padding: 5px 5px;
+  font-weight: bold;
+  color: black;
+  font-family: "consolas",monospace;
+  
+}
+
+.ppantalla{
+  align-items: center;
+  display: flex;
+  height: 60%;
+}
+
+.btn{
+  width: 50px;
+  height: 50px;
+  background-color: hsl(40,70%,50%);
+  /* background-image: url("../imagenes/fondo3.jpg"); */
+  background-size: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 1px;
+  border-radius: 5px;
+  /* color:hsl(20,90%,50%); */
+}
+
+.btn:hover{
+  color:hsl(20,90%,50%);
+}
+
+
+
+.cuerpo{
+  display: flex;
+  height: 70%;
+}
+
+.botones{
+  margin: auto;
+  padding-bottom: 15px; 
+}
+
+
+.filas{
+display: flex;
+}
+
+.psolar{
+  margin-top:9px;
+  margin-right: 5px;
+  display: flex;
+  margin-left: 1px;
+}
+
+.solar{
+  width: 100px;
+  height: 25px;
+}
+
+.bateria{
+  height: 25px;
+  padding: 0;
+  margin-left: 2px;
+  transform: rotate(-90deg);
+}
+
+.marca{
+  width: 100px;
+  height: 25px;
+  margin:auto 0;
+  display: flex;
+}
+
+.marca p{
+  padding: 0px;
+  margin: 0px;
+  margin: auto ;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.lupa{
+  font-size: .9em;
+  font-weight: bold;
+}
+
